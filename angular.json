@@ -53,8 +53,11 @@
               "outputHashing": "all"
             },
             "development": {
-              "optimization": false,
-              "extractLicenses": false,
+              "optimization": true,
+              "outputHashing": "all",
+              "namedChunks": false,
+              "aot": true,
+              "extractLicenses": true,
               "sourceMap": false
             }
           },
